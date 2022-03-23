@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Registrar un usuario</h1><br>
+    <form action="ezequielalarcon1413@gmail.com" method="POST" enctype="text/plain">
+        <label for="username"><strong>Nombre de usuario</strong></label><br>
+        <input type="text" name="nombreDeUsuario" id="username" placeholder="Ingresar nombre de usuario"><br>
+
+        <label for="pass"><strong>Contraseña</strong></label><br>
+        <input type="password" name="contraseñaDeUsuario" id="pass" placeholder="Ingresar contraseña"><br>
+
+        <label for="age"><strong>Edad</strong></label><br>
+        <input type="number" name="edadDeUsuario" id="age" placeholder="Ingresar edad" min="1" max="100"><br>
+
+        <label for="dateAge"><strong>Fecha de nacimiento</strong></label><br>
+        <input type="date" name="fechaDeNacimiento" id="dateAge"><br><br>
+
+        <label><strong>Sexo</strong></label><br>
+        <input type="radio" name="sexo" id="hombre" value=1><label for="hombre"><strong>Hombre</strong></label><br>
+        <input type="radio" name="sexo" id="mujer" value=2><label for="mujer"><strong>Mujer</strong></label><br>
+        <input type="radio" name="sexo" id="otro" value=3><label for="otro"><strong>Otro</strong></label><br>
+
+        <label><strong>País natal</strong></label><br>
+        <select name="paisNatal">
+            <option disabled selected>Seleccionar</option>
+            <option>Argentina</option>
+            <option>Chile</option>
+            <option>Uruguay</option>
+        </select><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+h1#titulo {
+    color: #006868;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2#subtitulo {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-weight: bold;
+}
+
+p strong {
+    color: red;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+p span.destacado {
+    color: darkorange;
+}
+
+p a {
+    color: red;
+    text-decoration: underline;
+}
+
+p a em {
+    color: blue;
+}
+
+p span.especial {
+    color: #711ebe;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table caption {
+    color: transparent;
+    font-size: 0px;
+}
+
+table th, table td {
+    border: 1px solid black;
+    font-weight: bold;
+    padding: .2em .5em .2em .5em;
+}
+
+table thead th, table tbody th.especial {
+    color: darkorange;
+}
+
+table tbody th, table tfoot th {
+    color: red;
+}
+
+table tbody td {
+    color: green;
+}
+
+table tbody td strong {
+    color: darkorange;
+}
+
+div#adicional {
+    color: darkolivegreen;
+}
+
+div#adicional p span#especial {
+    color: orchid;
+}
+
+div#adicional p a {
+    color: darkgreen;
+}
